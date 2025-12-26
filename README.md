@@ -11,7 +11,7 @@ This project reads a **quadrature rotary encoder** (Channel A / Channel B) using
 
 This code is intended as a **clean, reusable baseline** for robotics and mechatronics projects such as joint sensing, PD control, impedance control, and rehabilitation devices.
 
-![rotary magnetic encoder]("rotary magnetic encoder.jpeg")
+![rotary magnetic encoder](rotary magnetic encoder.jpeg)
 
 
 ---
@@ -97,4 +97,5 @@ To zero the encoder count
 
 ## 7. Set ENcoder Resolution
 #define COUNTS_PER_REV 1440.0
+
 
