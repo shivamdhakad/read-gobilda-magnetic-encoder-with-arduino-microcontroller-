@@ -11,6 +11,9 @@ This project reads a **quadrature rotary encoder** (Channel A / Channel B) using
 
 This code is intended as a **clean, reusable baseline** for robotics and mechatronics projects such as joint sensing, PD control, impedance control, and rehabilitation devices.
 
+![rotary magnetic encoder]("rotary magnetic encoder.jpeg")
+
+
 ---
 
 ## 1. Hardware Setup
@@ -80,15 +83,18 @@ lib_deps =
     paulstoffregen/Encoder
 
 monitor_speed = 115200
+```
 
-## 7. Serial Output
+
+## 5. Serial Output
 Count: 250 | Angle(deg): 62.50 | dAngle(deg): 1.25 | omega(rad/s): 0.218 | dir: ++
 
 
-## 8. Run Time command:
+## 6. Run Time command:
 >> z
 To zero the encoder count
 === ENCODER ZEROED (count=0, angle=0) ===
 
-## 9. Set ENcoder Resolution
+## 7. Set ENcoder Resolution
 #define COUNTS_PER_REV 1440.0
+
